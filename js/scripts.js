@@ -5,6 +5,6 @@ var i = document.getElementsByTagName('li');
 add.addEventListener('click', function() {
 	var element = document.createElement('li');
 	
-	element.innerHTML = 'item' + i.length;
+	element.innerHTML = 'item ' + i.length;
 	list.appendChild(element);	
 });
